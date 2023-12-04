@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+    <title>Filme Mania</title>
+</head>
+<body onload="searchTrend()">
+    <header>
+        <h1>Filme Mania</h1>
+        <input type="text" id="searchInput" placeholder="Nome do Filme...">
+        <button onclick="executeSearch()">Pesquisar</button>
+        <button onclick="searchTrend()">Home</button>
+    </header>
+    
+    <section id="popularMovies">
+        <h2>- Filmes em Alta -</h2>
+    </section>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
